@@ -13,7 +13,7 @@ class ListController extends Controller
 
     public function show()
     {
-        $newcomers = Newcomer::orderBy('created_at', 'desc')->paginate(3);
+        $newcomers = Newcomer::orderBy('created_at', 'desc')->paginate(10);
 
         return view('list', [
             'newcomers' => $newcomers,
