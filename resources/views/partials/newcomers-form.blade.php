@@ -8,9 +8,9 @@
             </ul>
         </div>
     @endif
-    @if (isset($message))
+    @if (Session::get('message'))
         <div class="alert alert-success">
-            <p>{{ $message }}</p>
+            <p>{{ Session::get('message') }}</p>
         </div>
     @endif
     <form role="form" action="/newcomer/new" method="POST">
