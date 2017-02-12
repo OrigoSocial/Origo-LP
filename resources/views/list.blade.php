@@ -4,6 +4,7 @@
     <div class="container">
         <?php $message = Session::get('message'); ?>
         <?php $error = Session::get('error') ?>
+
         @if (isset($message) || isset($error))
             <div class="row">
                 <div class="col-sm-12">
@@ -19,13 +20,11 @@
                 </div>
             </div>
         @endif
-
-            <div class="row">
-                <div class="col-sm-12 text-left">
-                    <h3>Total results: {{ $count }}</h3>
-                </div>
+        <div class="row">
+            <div class="col-sm-12 text-left">
+                <h3>Total results: {{ $count }}</h3>
             </div>
-
+        </div>
         <div class="row">
             <div class="col-sm-12">
                 @if (count($newcomers) > 0)
@@ -44,6 +43,9 @@
                                             <strong>Industry: </strong>{{ $newcomer->industry }}
                                         </p>
                                     @endif
+                                    <p>
+                                        <strong>Registration date: </strong>{{ date('m-d-Y', strtotime($newcomer->created_at)) }}
+                                    </p>
                                 </div>
                                 <div class="col-sm-9">
                                     @if (isset($newcomer->message))
