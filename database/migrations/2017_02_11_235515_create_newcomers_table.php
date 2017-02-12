@@ -17,8 +17,8 @@ class CreateNewcomersTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('industry');
-            $table->text('message');
+            $table->string('industry')->nullable();
+            $table->text('message')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
