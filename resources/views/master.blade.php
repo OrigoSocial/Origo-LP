@@ -34,5 +34,11 @@
         <script src="{{ asset('assets/js/jquery.backstretch.min.js') }}"></script>
         <script src="{{ asset('assets/js/wow.min.js') }}"></script>
         <script src="{{ asset('assets/js/scripts.js') }}"></script>
+
+        <script>
+            jQuery(document).ready(function () {
+                $('.top-content').backstretch("{{ asset('assets/img/background.jpeg') }}");
+            })
+        </script>
     </body>
 </html>

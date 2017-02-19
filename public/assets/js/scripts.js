@@ -74,9 +74,6 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		scroll_to($(this), 0);
 	});
-
-    // Background slideshow
-    $('.top-content').backstretch("assets/img/background.jpeg");
     
     // Wow
     new WOW().init();
