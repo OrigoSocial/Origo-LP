@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-    <div class="container">
+    <div class="container list-page">
         <?php $message = Session::get('message'); ?>
         <?php $error = Session::get('error') ?>
 

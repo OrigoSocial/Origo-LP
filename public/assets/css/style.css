@@ -76,7 +76,7 @@ img {
 
 /***** Buttons *****/
 
-.btn {
+.container:not(.list-page) .btn {
     background: #00c0ff;
     border-color: #00c0ff;
     color: #fff !important;
@@ -685,6 +685,15 @@ footer {
 #modal-privacy li {
     font-size: 16px;
     margin-bottom: 10px;
+}
+
+/***** List page *****/
+
+.list-page {
+    padding-top: 25px;
+}
+.list-page p {
+    font-size: 16px;
 }
 
 /***** Animations *****/
