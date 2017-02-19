@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class NewcomerRequest extends FormRequest
+class NewcomerUpdateRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,7 +24,7 @@ class NewcomerRequest extends FormRequest
     public function rules()
     {
         return [
-            'email' => 'required|email|unique:newcomers|max:255'
+            'name' => 'required|max:255'
         ];
     }
 
@@ -36,7 +36,7 @@ class NewcomerRequest extends FormRequest
     public function messages()
     {
         return [
-            'email.required' => config('messages.email_required'),
+            'name.required' => config('messages.name_required'),
         ];
     }
 }

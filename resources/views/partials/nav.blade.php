@@ -7,18 +7,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/">Origo</a>
+            <a class="navbar-brand" href="/">
+                <img src="{{ asset('assets/img/logo.png') }}">
+            </a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="top-navbar-1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a class="scroll-link" href="#features">FEATURES</a></li>
-                <li><a class="scroll-link" href="#video">VIDEO</a></li>
-                <li><a class="scroll-link" href="#testimonials">CLIENTS</a></li>
-                <li><a class="scroll-link" href="#pricing">PLANS</a></li>
-                <li><a class="scroll-link" href="#about-us">ABOUT</a></li>
-                <li><a class="scroll-link" href="#faq">FAQ</a></li>
+                <li><a class="scroll-link" href="#about">About</a></li>
+                <li><a class="scroll-link" href="#how-it-works">How It Works</a></li>
+                <li><a class="scroll-link" href="#early-access">Early Access</a></li>
+                <li><a class="scroll-link" href="#footer">Contact</a></li>
             </ul>
         </div>
     </div>
+    {{--<div class="navbar-arc"></div>--}}
 </nav>

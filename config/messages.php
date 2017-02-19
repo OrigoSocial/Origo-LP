@@ -1,7 +1,8 @@
 <?php
 
 return [
-    'newcomer_registered'     => "Congratulations, you're now successfully registered for the Beta. You'll be hearing more from us soon!",
+    'newcomer_registered'     => "Success! We'll let you know when Origo has launched.",
+    'newcomer_updated'        => "Congratulations! You're now fully registered.",
     'newcomer_deleted'        => "You've successfully deleted the newcomer.",
     'newcomer_deletion_error' => "There was a problem deleting the newcomer.",
 
