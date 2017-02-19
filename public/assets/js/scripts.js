@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
 		},
 		messages: {
 			email: {
-				required: 'We need your email to notify you when the Beta is out.'
+				required: 'We need your email to notify you.'
 			}
 		},
 		submitHandler: function (form) {
