@@ -677,6 +677,16 @@ footer {
     background: none;
 }
 
+#modal-privacy strong {
+    font-size: 20px;
+    color: #333;
+}
+#modal-privacy p,
+#modal-privacy li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
 /***** Animations *****/
 
 .slideDown {
