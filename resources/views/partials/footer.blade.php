@@ -19,12 +19,12 @@
                 </p>
                 <ul class="list-inline">
                     <li>
-                        <a href="https://twitter.com/origosocial" target="_blank">
+                        <a href="https://www.facebook.com/origosocial/" target="_blank">
                             <i class="fa fa-facebook-square"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/origosocial/" target="_blank">
+                        <a href="https://twitter.com/origosocial" target="_blank">
                             <i class="fa fa-twitter-square"></i>
                         </a>
                     </li>
