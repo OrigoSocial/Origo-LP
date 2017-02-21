@@ -38,17 +38,17 @@
                 <select class="form-control" name="industry" id="industry">
                     <option value="" disabled selected>Choose your industry</option>
                     <option value="Clothing">Clothing</option>
-                    <option value="Graphics/Design">Graphics/Design</option>
-                    <option value="Fashion">Fashion</option>
-                    <option value="Technology">Technology</option>
-                    <option value="Education">Education</option>
-                    <option value="Food">Food</option>
-                    <option value="Music">Music</option>
-                    <option value="Video">Video</option>
                     <option value="eCommerce">eCommerce</option>
+                    <option value="Education">Education</option>
+                    <option value="Fashion">Fashion</option>
                     <option value="Finance">Finance</option>
+                    <option value="Food">Food</option>
+                    <option value="Graphics/Design">Graphics/Design</option>
                     <option value="Green">Green</option>
                     <option value="Health and Fitness">Health and Fitness</option>
+                    <option value="Music">Music</option>
+                    <option value="Technology">Technology</option>
+                    <option value="Video">Video</option>
                     <option value="Virtual/Artificial Reality">Virtual/Artificial Reality</option>
                     <option value="Other">Other</option>
                 </select>
@@ -57,6 +57,12 @@
                 <label class="sr-only" for="message">How can Origo help you??</label>
                 <textarea name="message" placeholder="How can Origo help you?" class="form-control"
                           id="message"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="interested_early_access" style="color: #fff">
+                    <input type="checkbox" name="interested_early_access" id="interested_early_access" style="position: relative; top: 2px">
+                    I'm interested in early access to the Launchpad
+                </label>
             </div>
             <button type="submit" class="btn">Submit</button>
         </form>

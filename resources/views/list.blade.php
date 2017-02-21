@@ -46,6 +46,9 @@
                                     <p>
                                         <strong>Registration date: </strong>{{ date('m-d-Y', strtotime($newcomer->created_at)) }}
                                     </p>
+                                    <p>
+                                        <strong>Interested in early access: </strong>{{ $newcomer->interested_early_access ? "Yes" : "No" }}
+                                    </p>
                                 </div>
                                 <div class="col-sm-9">
                                     @if (isset($newcomer->message))

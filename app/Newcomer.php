@@ -19,7 +19,7 @@ class Newcomer extends Model
      * @var array
      */
     protected $fillable = [
-        'email', 'name', 'industry', 'message'
+        'email', 'name', 'industry', 'message', 'interested_early_access'
     ];
 
     /**

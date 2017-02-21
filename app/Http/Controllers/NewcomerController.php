@@ -40,9 +40,10 @@ class NewcomerController extends Controller
 
         if ($newcomer) {
             $newcomer->update([
-                'name'     => $request->input('name'),
-                'industry' => $request->input('industry'),
-                'message'  => $request->input('message')
+                'name'                    => $request->input('name'),
+                'industry'                => $request->input('industry'),
+                'message'                 => $request->input('message'),
+                'interested_early_access' => (bool)$request->input('interested_early_access')
             ]);
 
             return response()->json([
