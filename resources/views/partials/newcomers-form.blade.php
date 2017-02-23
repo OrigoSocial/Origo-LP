@@ -1,6 +1,6 @@
 <div class="newcomer-form-container">
     <div class="form-one">
-        <h1 class="tossing">start here.</h1>
+        <h1>start here.</h1>
         <p>Enter your email to be the first to know when Origo launches</p>
 
         <form role="form" action="/newcomer/new" method="POST">
