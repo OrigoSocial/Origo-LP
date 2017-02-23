@@ -20,5 +20,5 @@
             </ul>
         </div>
     </div>
-    {{--<div class="navbar-arc"></div>--}}
+    <div class="navbar-arc"></div>
 </nav>
