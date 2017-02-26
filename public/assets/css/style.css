@@ -193,6 +193,11 @@ ul.navbar-nav {
 .navbar-collapse {
     background: #999;
 }
+@media (max-width: 1199px) {
+    .navbar-arc:after {
+        border-radius: 20%;
+    }
+}
 @media (max-width: 767px) {
     .navbar-nav {
         margin: 0;
@@ -206,9 +211,6 @@ ul.navbar-nav {
     }
     .navbar-brand {
         margin-left: 20px !important;
-    }
-    .navbar-arc:after {
-        border-radius: 25%;
     }
 }
 
@@ -412,6 +414,27 @@ label.error {
 @media (max-width: 767px) {
     #how-it-works .icon-text {
         margin-bottom: 50px;
+    }
+}
+
+/***** Modal *****/
+
+.features-container img {
+    max-width: 100px;
+}
+.features-container p {
+    padding-bottom: 25px;
+}
+.features-container .row:first-child {
+    margin-bottom: 50px;
+}
+@media (max-width: 991px) {
+    .features-container .row:first-child {
+        margin-bottom: 0;
+    }
+    .features-container p {
+        padding-bottom: 0;
+        padding-top: 40px;
     }
 }
 

@@ -9,6 +9,8 @@
 
     @include('partials.early-access')
 
+    @include('partials.features')
+
     @include('partials.footer')
 
     @include('partials.privacy-modal')
