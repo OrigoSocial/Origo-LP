@@ -38,6 +38,7 @@
         <script>
             jQuery(document).ready(function () {
                 $('.top-content').backstretch("{{ asset('assets/img/background.jpeg') }}");
+                $('[data-toggle="tooltip"]').tooltip();
             })
         </script>
     </body>

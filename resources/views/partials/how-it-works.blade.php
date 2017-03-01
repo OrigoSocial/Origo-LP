@@ -17,6 +17,8 @@
                 <div class="icon-container">
                     <div class="row">
                         <div class="col-sm-4">
+                            <img class="arrow img-responsive wow fadeInDown"
+                                 src="{{ asset('assets/img/arrow.png') }}" width="30">
                             <div class="icon-wrapper">
                                 <img class="icon img-responsive wow fadeInDown"
                                      src="{{ asset('assets/img/step-1.png') }}" width="100">
@@ -24,6 +26,8 @@
                             <p class="icon-text">Create a profile</p>
                         </div>
                         <div class="col-sm-4">
+                            <img class="arrow img-responsive wow fadeInDown"
+                                 src="{{ asset('assets/img/arrow.png') }}" width="30">
                             <div class="icon-wrapper">
                                 <img class="icon img-responsive wow fadeInDown"
                                      src="{{ asset('assets/img/step-2.png') }}" width="100">

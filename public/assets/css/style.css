@@ -98,7 +98,7 @@ img {
     display: block;
     height: 250px;
     background: transparent;
-    box-shadow: 100px -350px 160px -200px #fff inset;
+    box-shadow: 100px -50px 60px #fff inset;
     z-index: -1;
 }
 .right {
@@ -387,10 +387,16 @@ label.error {
 }
 #how-it-works .icon-wrapper {
     min-height: 110px;
+    position: relative;
 }
 #how-it-works .icon {
     display: block;
     margin: 0 auto;
+}
+#how-it-works .arrow {
+    position: absolute;
+    right: -10px;
+    top: 30px;
 }
 #how-it-works .row .col-sm-4:nth-child(1) .icon:after,
 #how-it-works .row .col-sm-4:nth-child(2) .icon:after {
@@ -414,6 +420,9 @@ label.error {
 @media (max-width: 767px) {
     #how-it-works .icon-text {
         margin-bottom: 50px;
+    }
+    #how-it-works .arrow {
+        display: none;
     }
 }
 
@@ -466,6 +475,10 @@ label.error {
     width: 1000px;
     height: 600px;
 }
+#about .oval-static, #how-it-works .oval-static {
+    width: 1150px;
+    height: 700px;
+}
 .oval-static.oval-static--full {
     width: 100%;
 }
@@ -505,14 +518,14 @@ label.error {
     transform: rotate(185deg);
 }
 .oval-horizontal.oval-horizontal--right {
-    -webkit-transform: rotate(195deg);
-    -moz-transform: rotate(195deg);
-    transform: rotate(195deg);
+    -webkit-transform: rotate(190deg);
+    -moz-transform: rotate(190deg);
+    transform: rotate(190deg);
 }
 .oval-horizontal.oval-horizontal--left {
-    -webkit-transform: rotate(175deg);
-    -moz-transform: rotate(175deg);
-    transform: rotate(175deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 @media (max-width: 1599px) {
     .top-content > .oval-container {

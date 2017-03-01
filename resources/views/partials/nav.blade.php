@@ -16,6 +16,7 @@
                 <li><a class="scroll-link" href="#about">About</a></li>
                 <li><a class="scroll-link" href="#how-it-works">How It Works</a></li>
                 <li><a class="scroll-link" href="#early-access">Early Access</a></li>
+                <li><a class="scroll-link" href="#features">Features</a></li>
                 <li><a class="scroll-link" href="#footer">Contact</a></li>
             </ul>
         </div>
