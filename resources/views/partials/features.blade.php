@@ -16,7 +16,7 @@ We know how important it is to keep up with industry trends and current events. 
                     <img src="{{ asset('assets/img/p1.png') }}">
                 </div>
                 <div class="col-sm-4" data-toggle="tooltip" data-placement="top"
-                     title="Getting featured in media publications can be difficult, Origo’s Launchpad is the solution to that problem. A Launchpad is a space to grow and launch your venture. In your custom Launchpad, you create the content that will be shared with the Origo community; share as much or as little as you please.">
+                     title="If you’re an investor looking for the next big startup or an entrepreneur looking to start their first venture, Origo will connect you with users who share common goals and interests.">
                     <p>Connect</p>
                     <img src="{{ asset('assets/img/person.png') }}">
                 </div>
@@ -32,7 +32,7 @@ We know how important it is to keep up with industry trends and current events. 
                     <img src="{{ asset('assets/img/p2.png') }}">
                 </div>
                 <div class="col-sm-4 col-sm-push-2" data-toggle="tooltip" data-placement="top"
-                     title="If you’re an investor looking for the next big startup or an entrepreneur looking to start their first venture, Origo will connect you with users who share common goals and interests.">
+                     title="Getting featured in media publications can be difficult, Origo’s Launchpad is the solution to that problem. A Launchpad is a space to grow and launch your venture. In your custom Launchpad, you create the content that will be shared with the Origo community; share as much or as little as you please.">
                     <p>Launchpads</p>
                     <img src="{{ asset('assets/img/lp.png') }}">
                 </div>
