@@ -98,7 +98,7 @@ img {
     display: block;
     height: 250px;
     background: transparent;
-    box-shadow: 100px -50px 60px #fff inset;
+    box-shadow: 100px -250px 60px -200px #fff inset;
     z-index: -1;
 }
 .right {
